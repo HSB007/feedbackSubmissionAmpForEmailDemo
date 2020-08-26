@@ -1,0 +1,274 @@
+<!doctype html>
+<html ⚡4email>
+  <head>
+    <meta charset="utf-8">
+    <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  	<style amp4email-boilerplate>body{visibility:hidden}</style>
+    <style amp-custom>
+    
+    body {
+      font-family: Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      font-size: 14px;
+      line-height: 1.4;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    
+    table {
+      border-collapse: separate;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      width: 100%;
+    }
+
+    
+    body {
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .body {
+      background-color: #f6f6f6;
+      width: 100%;
+    }
+    
+    .container {
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 0;
+      padding-top: 24px;
+      width: 600px;
+    }
+      
+   .radio input[type="radio"] {
+     position: absolute;
+     left: -2rem;
+     opacity: 0;
+     display:inline-block;
+     color:#4e4a48;
+     text-decoration:none
+    }
+      
+    .choice [type=radio]:checked + div {
+      color : white;
+    }
+      
+   .choice td:nth-child(1) [type=radio]:checked + div,
+   .choice td:nth-child(2) [type=radio]:checked + div,
+   .choice td:nth-child(3) [type=radio]:checked + div,
+   .choice td:nth-child(4) [type=radio]:checked + div,
+   .choice td:nth-child(5) [type=radio]:checked + div,
+   .choice td:nth-child(6) [type=radio]:checked + div,
+   .choice td:nth-child(7) [type=radio]:checked + div,
+   .choice td:nth-child(8) [type=radio]:checked + div,
+   .choice td:nth-child(9) [type=radio]:checked + div,
+   .choice td:nth-child(10) [type=radio]:checked + div,
+   .choice td:nth-child(11) [type=radio]:checked + div {
+      background-color: rgb(0, 109, 213);
+    }
+
+    .btn {
+      box-sizing: border-box;
+      min-width: 100%;
+      width: 100%;
+    }
+    
+    .btn > tbody > tr > td {
+      padding-bottom: 16px;
+    }
+    
+    .btn table {
+      width: auto;
+    }
+    
+    .btn table td {
+      background-color: #ffffff;
+      border-radius: 4px;
+      text-align: center;
+    }
+    
+    .btn a, .btn button {
+      background-color: #ffffff;
+      border: solid 2px #3498db;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #3498db;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+      padding: 12px 24px;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+    
+    .btn-primary a, .btn-primary button {
+      background-color: rgb(0, 109, 213);
+      border-color: rgb(0, 109, 213);
+      color: #ffffff;
+    }
+  </style>
+
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div>
+           <table class="main">
+<div style="background-image:url('https://ci5.googleusercontent.com/proxy/doOdv0plWHUV790V_431LS01Fxbe7qpsmbrkIyrWFyasU_1YIA5IPy5j5HlnIPnvoWvQIXrbtSLywxN-2JjTMB1u1BVw1u2mVoekvOzzZkY6JQgt6UGhYN8Gv3xXIULKMbP3lWtYTqfaleKfwEmZAkaaHnSubbQ3fMjhI3shyQ=s0-d-e1-ft#https://lightningappcookbook.salesforce.com/themes/custom/cookbook/images/backgrounds/recipe-header-hill.png');background-size:100%;font-size:0.875rem;font-family:'Salesforce Sans',Arial,sans-serif">
+              <tr>
+                <td class="wrapper">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>
+                        <form method="post" action-xhr="https://yourApi.com/provideApiResource">
+                          <div style="font-size:0.875rem;font-family:'Salesforce Sans',Arial,sans-serif">
+   Hello Hemant<br>&nbsp;
+   <div><span class="il">How likely are you to recommend our service to a friend or colleague?</span></div>
+   &nbsp;
+   <div class="choice" style="text-align:center">
+      <div>
+         <table cellspacing="0" style="font-family:'Salesforce Sans',Arial,sans-serif;margin:0 auto">
+            <tbody>
+               <tr>
+                  <td style="text-align:center;padding:0;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem;border:1px solid #d8d8d8;border-right:0">
+                     <div class="radio">
+                      <input class="radio" type="radio" id="option0" name="npsResponse" value="0" on="change:step2.show" required>
+                      <div style="padding-top: 5px;padding-bottom: 5px;border-top-left-radius:.20rem">   
+                      	<label for="option0">0</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+                   <div class="radio">
+                      <input type="radio" id="option1" name="npsResponse" value="1" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option1">1</label>
+                     </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+                    <div class="radio">
+                      <input type="radio" id="option2" name="npsResponse" value="2" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option2">2</label>
+                     </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+          			<div class="radio">
+                      <input type="radio" id="option3" name="npsResponse" value="3" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option3">3</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+          			<div class="radio">
+                      <input type="radio" id="option4" name="npsResponse" value="4" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option4">4</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+          			<div class="radio">
+                      <input type="radio" id="option5" name="npsResponse" value="5" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option5">5</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+          			<div class="radio">
+                      <input type="radio" id="option6" name="npsResponse" value="6" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option6">6</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+          			<div class="radio">
+                      <input type="radio" id="option7" name="npsResponse" value="7" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option7">7</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+          			<div class="radio">
+                      <input type="radio" id="option8" name="npsResponse" value="8" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option8">8</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border:1px solid #d8d8d8;border-right:0">
+          			<div class="radio">
+                      <input type="radio" id="option9" name="npsResponse" value="9" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option9">9</label>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="text-align:center;padding:0;border-top-right-radius:.25rem;border-bottom-right-radius:.25rem;border:1px solid #d8d8d8;width:60px">
+          			<div class="radio">
+                      <input type="radio" id="option10" name="npsResponse" value="10" on="change:step2.show">
+                      <div class="radio" style="padding-top: 5px;padding-bottom: 5px">
+                        <label for="option10">10</label>
+                      </div>
+                    </div>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div><br><br>
+</div>
+                            <p id="step2" hidden>
+                              <label for="info">Would you like to tell us more?</label><br><br>
+                              <textarea id="info" name="textResponse" rows="5" cols="70"></textarea>
+                            </p>
+                          <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                          <tbody>
+                            <tr>
+                              <td align="left">
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <td><button type="submit" class="btn btn-primary">Submit Feedback</button></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                          <div class="m1" submit-success>
+                             Your response submitted successfully.<br><br>
+                            <amp-anim width="400" height="300" src="https://media1.giphy.com/media/LMcUzgsJ7a5xKZq7pI/giphy.gif" alt="an animation" attribution="The Go gopher was designed by Reneee French and is licensed under CC 3.0 attributions.">
+  </amp-anim>
+
+                          </div>
+                        </form>
+                         <br><br><br><br><br><br>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+</div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
